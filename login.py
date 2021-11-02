@@ -17,7 +17,7 @@ if(answer == "ja"):
 
 
     
-#Wenn die antwort nicht ja war in der ersten abfrage: Versuche es mit elif und wenn die antwort nein ist geht es weiter mit der registrierung
+#Wenn die antwort nicht ja war in der ersten abfrage: Versuche es mit elif (kombination aus else und if) und wenn die antwort nein ist geht es weiter mit der registrierung
 elif(answer == "nein"): 
     
     
