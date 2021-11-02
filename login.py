@@ -1,38 +1,34 @@
-#Wir erstellen einen Kunden login und eine Kunden account registrierung
+#We are creating a user login and registration
 
-print("Willkommen im Room 847")
+print("Welcome to room 847")
 
-#Es wird nach einer antwort gefragt
-answer = input("Haben sie bereits ein Konto? (ja oder nein)\n")
+#An answer is being requested
+answer = input("Do you already have a account (yes or no)\n")
 
-#Wenn die antwort "ja" ist dann geht es zum login
-if(answer == "ja"):
+#If the answer is "yes" you will be sent to the login
+if(answer == "yes"):
 
-    print("\nWillkommen Zurück!")
+    print("\nWelcome back")
     
-    username = input("\nDein Benutzername: ")
-    password = input("Geben sie ihr Passwort ein: ")
+    username = input("\nUsername: ")
+    password = input("Password: ")
 
-    print("\n" * 3 + "Willkommen im Room 847 " + username + "!")
+    print("\n" * 3 + "Welcome to room 847 " + username + "!")
 
 
     
-#Wenn die antwort nicht ja war in der ersten abfrage: Versuche es mit elif und wenn die antwort nein ist geht es weiter mit der registrierung
-elif(answer == "nein"): 
+#If the answer is no, you will be sent to the registration
+elif(answer == "no"): 
     
     
-    print("\nHerzlich Willkommen. Erstelle bitte hier ein Konto!")
+    print("\nWelcome! Please create an account here!")
 
-    email = input("\nGeben sie eine E-Mail adresse ein: ")
-    username = input("Geben sie einen Benutzernamen ein: ")
-    password = input("Geben sie ein Passwort ein: ")
+    email = input("\nEnter your e-mail adress: ")
+    username = input("Enter a username: ")
+    password = input("Enter a password: ")
 
-    print("\n" *5 +  "Willkommen " + username + "! Dein Konto wurde erfolgreich mit der E-Mail adresse: " + email + " erstellt!")
+    print("\n" *5 +  "Welcome " + username + "! Your account with the e-mail " + email + ", has been succesfully created!")
 
-#Wenn die antwort nicht ja und nicht nein ist: Komme hier her und gebe einen Syntax error aus!
-elif(answer != "nein", answer != "ja"): {
-    print("Syntax error: try yes or no")
-}
-
+#if the answer is not "yes" or "no" then it gives you a syntax error
 else:
-    print("Unknown error: Please try again. If it doesn't work contact anian@sollingers.de for help")
+    print("Syntax error: try yes or no")
