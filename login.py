@@ -24,7 +24,7 @@ elif(answer == "no"):
     print("\nWelcome! Please create an account here!")
 
     email = input("\nEnter your e-mail adress: ")
-    username = input("Enter a username: ")
+    username = input("Enter a username: ") #Just a password that doesnt (update2)
     password = input("Enter a password: ")
 
     print("\n" *5 +  "Welcome " + username + "! Your account with the e-mail " + email + ", has been succesfully created!")
