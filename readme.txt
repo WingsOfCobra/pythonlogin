@@ -1,8 +1,10 @@
 # pythonlogin
 
-Ein kleines Python3 Programm das ich geschrieben habe.
+A short python3 program i wrote.
 
-Es dient zur Übung von Inputs, Variablen und If-Abfragen
+For educational purposes only.
+
+Made for learning inputs, if-statements and variables.
 
 --------------------------------------------------------
 
